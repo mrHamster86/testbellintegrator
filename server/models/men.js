@@ -13,7 +13,7 @@ const menSchema = new Schema({
       },
       id: {
         type: Schema.Types.ObjectId,
-        ref: 'Mens',
+        ref: 'Men',
         required: true,
       },
     },
